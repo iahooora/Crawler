@@ -4,8 +4,8 @@ from spider import Spider
 from domain import *
 from general import *
 
-PROJECT_NAME = 'par'
-HOMEPAGE = 'http://par.ir'
+PROJECT_NAME = 'theFacebook'
+HOMEPAGE = 'http://facebook.com'
 DOMAIN_NAME = get_domain(HOMEPAGE)
 QUEUE_FILE = PROJECT_NAME + '/queue.txt'
 CRAWLED_FILE = PROJECT_NAME + '/FinalCrawled.txt'
